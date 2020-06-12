@@ -1,3 +1,6 @@
+Installing Jekyll on mac
+https://treehouse.github.io/installation-guides/mac/jekyll-mac.html
+
 About Ruby, Gems, Bundler, and other prerequisites
 
 Ruby is a programming language you must have on your computer in order to build Jekyll locally.
@@ -5,3 +8,24 @@ Ruby has various gems (or plugins) that provide various functionality. Each Jeky
 requires certain gems. More information from the link below:
 
 https://idratherbewriting.com/documentation-theme-jekyll/mydoc_about_ruby_gems_etc.html
+
+To publish the site locally on your computer, run the following command
+
+bundle exec jekyll serve
+ the following is returned
+
+Configuration file: /Users/j_fossot/RCGW/_config.yml
+            Source: /Users/j_fossot/RCGW
+       Destination: /Users/j_fossot/RCGW/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 2.022 seconds.
+ Auto-regeneration: enabled for '/Users/j_fossot/RCGW'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+
+copy and paste the server address as displayed in the address
+bar of your browser to publish the site
+ for the command issued above, the server address is
+ http://127.0.0.1:4000/
